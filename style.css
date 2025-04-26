@@ -1,5 +1,5 @@
 .main-header {
-    background-color: #96DED1; /* Choose any color you like */
+    background-color: #278775; /* Choose any color you like */
     color: rgb(0, 0, 0);
     padding: 24px 0 12px 0;
     text-align: right;
@@ -21,7 +21,7 @@
 }
 
 .main-header nav a:hover {
-    color: #f1c40f; /* Highlight color on hover */
+    color: #ffffff; /* Highlight color on hover */
 }
 
 .headshot-img{
