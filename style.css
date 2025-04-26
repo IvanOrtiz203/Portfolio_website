@@ -1,35 +1,25 @@
 .main-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: rgba(255,255,255,0.7); /* transparent white */
-    backdrop-filter: blur(6px);         /* optional: adds a blur effect */
-    z-index: 1000;
+    background-color: #3498db; /* Choose any color you like */
+    color: white;
+    padding: 24px 0 12px 0;
     text-align: center;
-    padding: 16px 0 8px 0;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.main-header h1 {
+    margin: 0 0 12px 0;
+    font-size: 2.2em;
+    letter-spacing: 1px;
 }
 
 .main-header nav a {
-    margin: 0 18px;
+    color: white;
     text-decoration: none;
-    color: #222;
+    margin: 0 18px;
     font-weight: bold;
     font-size: 1.1em;
     transition: color 0.2s;
 }
+
 .main-header nav a:hover {
-    color: #0074d9;
-}
-
-.main-header small {
-    display: block;
-    margin-top: 4px;
-    color: #555;
-    font-size: 0.9em;
-}
-
-body {
-    padding-top: 70px; /* Ensures content isn't hidden under the fixed header */
+    color: #f1c40f; /* Highlight color on hover */
 }
