@@ -1,25 +1,35 @@
 .main-header {
-    background-color: #3498db; /* Choose any color you like */
-    color: white;
+    background-color: #0aed96;
+    color: black;
     padding: 24px 0 12px 0;
-    text-align: center;
 }
 
-.main-header h1 {
-    margin: 0 0 12px 0;
-    font-size: 2.2em;
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.site-name a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.6em;
+    font-weight: bold;
     letter-spacing: 1px;
 }
 
-.main-header nav a {
-    color: white;
+.main-nav a {
+    color: black;
     text-decoration: none;
-    margin: 0 18px;
+    margin-left: 24px;
     font-weight: bold;
     font-size: 1.1em;
     transition: color 0.2s;
 }
 
-.main-header nav a:hover {
-    color: #f1c40f; /* Highlight color on hover */
+.main-nav a:hover {
+    color: #f1c40f;
 }
