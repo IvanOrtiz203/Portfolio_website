@@ -39,16 +39,34 @@
     color: #000000;  /* Highlight color on hover */
 }
 
-.headshot-img{
+.headshot{
+    width: 200px;
+    height: 200px;  
+    margin: 20px auto;
     border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid #333;
-    display: block;
-    margin: 0 auto;
-    transition: transform 0.3s ease;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.headshot-img:hover{
-    transform: scale(1.10);
+.headshot-img {
+    width: 100%; /* Image will fill the container */
+    height: 100%; /* Image will fill the container */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    transition: transform 0.3s ease; /* Smooth zoom effect */
+    border-radius: 50%; /* Makes the image circular */
 }
-    
+
+.headshot-img:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
