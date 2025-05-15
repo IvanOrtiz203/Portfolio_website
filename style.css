@@ -2,8 +2,23 @@
     background-color: #278775; /* Choose any color you like */
     color: rgb(0, 0, 0);
     padding: 24px 0 12px 0;
-    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
 }
+
+.main-header nav {
+   text-align: right;
+}
+
+.main-header .name {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
 
 .main-header h1 {
     margin: 0 0 12px 0;
@@ -21,7 +36,7 @@
 }
 
 .main-header nav a:hover {
-    color: #ffffff; /* Highlight color on hover */
+    color: #000000;  /* Highlight color on hover */
 }
 
 .headshot-img{
