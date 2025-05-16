@@ -122,6 +122,78 @@
 }
     
 
+.project_card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    width: 300px;
+    margin: 20px auto;
+}
 
+.project_card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
 
+.project_card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-info {
+    padding: 20px;
+}
+
+.project-info h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #278775;
+}
+
+.project-info p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.skills {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.skills-logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 30px;
+}
+
+.skills i {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.skills i:hover {
+    transform: translateY(-5px);
+    color: #000000;  /* Change color on hover */
+}
+
+.LeaveMessage {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.LeaveMessage:first-child {
+    margin-top: 200px;  /* Space from skills section */
+}
+
+.LeaveMessage:last-child {
+    margin-top: 100px;  /* Space between the two messages */
+}
     
+.LeaveMessage:last-child {
+    margin-top: 100px;  /* Space between messages */
+    margin-bottom: 200px;  /* Space at bottom of page */
+}
