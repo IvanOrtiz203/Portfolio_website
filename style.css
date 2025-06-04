@@ -87,18 +87,23 @@
     font-family: Arial;
     font-size: 25px;
     margin-top: 250px;
+    background-color: #f0f0f0;
+    padding: 20px;
 
 
 }
 
 .project{
     margin-top: 200px;
+    background-color: #ffffff;
 
 
 }
 
 .skills{
     margin-top:200px;
+    background-color: #dcdcdc;
+    padding: 20px;
 
 
 }
@@ -161,6 +166,8 @@
 .skills {
     margin-top: 200px;
     text-align: center;
+    background-color: #dcdcdc;
+    padding: 20px;
 }
 
 .skills-logo {
