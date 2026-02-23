@@ -163,14 +163,29 @@ html {
     
 
 .project_card {
+    width: 300px;
     background: white;
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
     transition: all 0.3s ease;
-    width: 300px;
-    margin: 20px auto;
+  }
+
+.project{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    margin-top: 200px;
 }
+
+.project-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+  }
 
 .project_card:hover {
     transform: translateY(-10px);

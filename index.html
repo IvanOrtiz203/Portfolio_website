@@ -10,35 +10,36 @@
 
 </head>
 <body>
+
     <!-- Header Section -->
     <header class="main-header">
         <a href="#" class="name">Ivan Ortiz</a>
-        <nav>
-            <section id="about">
-            <section id="projects">
-            <section id="skills">
+       <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
         </nav>
+
     </header>
 <!-- about Section -->
-<div id="about" class="About-subsection">
+<section id ="about">
     <div class="about-content">
-        <h1>Hello I'm Ivan!</h1>
+        <h2>Hello I'm Ivan!</h2>
+        
         <div class="headshot">
-        <picture>
             <img src="images/IMG_0080.JPEG" width="200" height="200" alt="Ivan Ortiz headshot" class="headshot-img">
-        </picture>
         </div>
-        <div class="boi">
-
+        <div class="about_text">
     <p>
         Hey I'm Ivan a am studying computer science at the University of Rhode Island
         I am well equipped with technual skills and wagerbness to explore. 
     </p>
-    <br>
+    
     <p>
         outside of career and academics I enjoy playing video games, skating, lifting weights and wathcing anime 
     </p>
         </div>
+        
         <div class="social_links">
             <a href="https://www.instagram.com/ivanortiz_01/" target="_blank" aria-label="Instagram">
                 <i class="fa-brands fa-instagram"></i>
@@ -51,27 +52,53 @@
             </a>
         </div>
     </div>
-</div>
-<!-- Sofware Project subSection -->
+    </section>
 
+<!-- Sofware Project -->
+<section id="projects">
+    <h2>Projects</h2>
 
+    <div class="projects-container">
 
+        <div class="project_card">
+            <a href="https://github.com" target="_blank">
+                <img src="anime-chatbot.png" alt="Anime Chatbot Screenshot">
+                <h3>Anime ChatBot</h3>
+                <p>AI-powered chatbot inspired by anime characters.</p>
+                <p class="tech">React</p>
+            </a>
+        </div>
 
+        <div class="project_card">
+            <a href="https://github.com" target="_blank">
+                <img src="anime-chatbot.png" alt="Anime Chatbot Screenshot">
+                <h3>SafeNest</h3>
+                <p>Rental property app with crime data integration.</p>
+                <p class="tech">React / Node</p>
+            </a>
+        </div>
 
+    </div>
+</section>
+<!-- Skills section -->
+<section id="skills">
+    <h2>Skills</h2>
 
-
-<div id="skills" class="skills" style = "text-align: center;">
- 
-    <h1>skills</h1>
-    <i class="fa-brands fa-figma" style="font-size: 100px; color: #278775;"></i>
-</div>
+    <div class="skills-container">
+        <i class="fa-brands fa-figma" aria-label="Figma"></i>
+        <i class="fa-brands fa-react" aria-label="React"></i>
+        <i class="fa-brands fa-github" aria-label="GitHub"></i>
+    </div>
+</section>
 
 <!-- leave a message section -->
-<div class = "LeaveMessage" style = "text-align: center;">
-    <h1>Leave a Message</h1>
-</div>
-<div class = "LeaveMessage" style = "text-align: center;">
-    <h1>all right Reserved.</h1>
-</div>
-</body>
-</html>
+<section id = "contact">
+    <h2>Leave a Message</h2>
+    <form>
+        <!--later-->
+    </form>
+</section>
+
+<footer>
+   <p>© 2026 Ivan Ortiz. All rights reserved.</p>
+</footer>
