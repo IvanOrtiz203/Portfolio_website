@@ -29,12 +29,6 @@ html {
     color: rgb(0, 0, 0);
 }
 
-.main-header h1 {
-    margin: 0 0 12px 0;
-    font-size: 2.2em;
-    letter-spacing: 1px;
-}
-
 .main-header nav a {
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -84,23 +78,6 @@ html {
 
 .main-header{
     font-family: Arial;
-    font-size: 10px;
-}
-
-.About-subsection {
-    font-family: Arial;
-    font-size: 25px;
-    margin: 0;
-    padding: 20px;
-    background-color: #f0f0f0;
-    width: 100%;
-    min-height: 100vh;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
 }
 
 .about-content {
@@ -121,21 +98,6 @@ html {
     color: #333;
     font-weight: 700;
     letter-spacing: -0.5px;
-}
-
-.project{
-    margin-top: 200px;
-    background-color: #ffffff;
-
-
-}
-
-.skills{
-    margin-top:200px;
-    background-color: #dcdcdc;
-    padding: 20px;
-
-
 }
 
 .social_links {
@@ -179,14 +141,6 @@ html {
     margin-top: 200px;
 }
 
-.project-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
-    padding: 20px;
-  }
-
 .project_card:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
@@ -196,30 +150,6 @@ html {
     width: 100%;
     height: 200px;
     object-fit: cover;
-}
-
-.project-info {
-    padding: 20px;
-}
-
-.project-info h1 {
-    font-size: 2.8em;
-    margin-bottom: 20px;
-    color: #333;
-    font-weight: 700;
-    letter-spacing: -0.5px;
-}
-
-.project-info p {
-    color: #666;
-    line-height: 1.6;
-}
-
-.skills {
-    margin-top: 200px;
-    text-align: center;
-    background-color: #dcdcdc;
-    padding: 20px;
 }
 
 .skills-logo {
@@ -239,10 +169,6 @@ html {
     color: #000000;  /* Change color on hover */
 }
 
-.LeaveMessage {
-    margin-top: 200px;
-    text-align: center;
-}
 
 .LeaveMessage:first-child {
     margin-top: 200px;  /* Space from skills section */
