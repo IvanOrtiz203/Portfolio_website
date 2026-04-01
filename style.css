@@ -1,88 +1,52 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/*
+  Beginner-friendly CSS file.
+  Keep this file small and edit one section at a time.
+*/
+
+/* 1) Base page styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f7f7f7;
+  color: #222;
+  line-height: 1.5;
 }
 
-body{
-    font-family: Arial, sans-serif;
-}
-.main-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    backdrop-filter: blur(10px);
-
-    z-index: 1000;
-
-    background-color: yellow;
-
-    background-color: rgba(255, 255, 0, 0.8);
+/* 2) Header and navigation */
+.site-header {
+  background: #ffffff;
+  border-bottom: 1px solid #ddd;
+  padding: 16px;
 }
 
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+.site-header nav a {
+  margin-right: 12px;
+  text-decoration: none;
+  color: #0056b3;
 }
 
-.nav-links {
-    display: flex;
-    gap: 30px;
+/* 3) Main content layout */
+main {
+  max-width: 760px;
+  margin: 24px auto;
+  padding: 0 16px;
 }
 
-.nav-links a {
-    text-decoration: none;
-    color: black;
-    font-weight: 500;
-    transition: 0.2s ease;
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
 }
 
-.nav-links a:hover {
-    color: #07f3e7;
+img {
+  border-radius: 8px;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
-
-.main-header a {
-    color: black;
-    text-decoration: none;
-
-}
-
-#about{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    text-align: center;
-}
-.about-content {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    
-}
-
-.headshot-img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    transition:  transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.headshot-img:hover {
-    transform: scale(1.05);
-    transition: 0.3s ease;
+/* 4) Footer */
+footer {
+  text-align: center;
+  padding: 16px;
+  color: #666;
 }
