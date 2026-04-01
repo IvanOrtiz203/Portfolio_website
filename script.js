@@ -1,7 +1,13 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const toggle = document.getElementById("dark-mode-toggle");
+// Beginner-friendly JavaScript file.
+// This adds one tiny interaction to show how JS connects to HTML.
 
-    toggle.addEventListener("click", function () {
-        document.body.classList.toggle("dark");
-    });
+document.addEventListener('DOMContentLoaded', () => {
+  const button = document.getElementById('hello-btn');
+  const output = document.getElementById('hello-output');
+
+  if (!button || !output) return;
+
+  button.addEventListener('click', () => {
+    output.textContent = 'Welcome! Thanks for visiting my portfolio.';
+  });
 });

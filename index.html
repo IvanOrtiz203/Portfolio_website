@@ -1,106 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ivan Ortiz - portfolio</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ivan Ortiz - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!--
+    This page is intentionally simple.
+    - HTML = structure/content
+    - CSS  = visual style
+    - JS   = behavior/interactions
+  -->
 
-    <!-- Header Section -->
-    <header class="main-header">
-        <a href="#" class="name">Ivan Ortiz</a>
-       <nav class ="nav-links">
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
-        </nav>
+  <header class="site-header">
+    <h1>Ivan Ortiz</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-        <button id="dark-mode-toggle">Dark Mode</button>
-
-    </header>
-<!-- about Section -->
-<section id ="about">
-    <div class="about-content">
-        <h2>Hello I'm Ivan!</h2>
-        
-        <div class="headshot">
-            <img src="images/IMG_0080.JPEG" width="200" height="200" alt="Ivan Ortiz headshot" class="headshot-img">
-        </div>
-        <div class="about_text">
-    <p>
-        Hey I'm Ivan a am studying computer science at the University of Rhode Island
-        I am well equipped with technual skills and wagerbness to explore. 
-    </p>
-    
-    <p>
-        outside of career and academics I enjoy playing video games, skating, lifting weights and wathcing anime 
-    </p>
-        </div>
-        
-        <div class="social_links">
-            <a href="https://www.instagram.com/ivanortiz_01/" target="_blank" aria-label="Instagram">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href="https://github.com/IvanOrtiz203?tab=repositories" target="_blank" aria-label="GitHub">
-                <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/ivan-ortiz-8b6494303/" target="_blank" aria-label="LinkedIn">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-        </div>
-    </div>
+  <main>
+    <section id="about" class="card">
+      <h2>About</h2>
+      <img src="images/IMG_0080.JPEG" width="180" height="180" alt="Ivan Ortiz headshot">
+      <p>
+        I am studying Computer Science at the University of Rhode Island.
+      </p>
+      <p>
+        I enjoy building software and growing my technical skills.
+      </p>
+      <p>
+        <a href="https://github.com/IvanOrtiz203?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub</a>
+        |
+        <a href="https://www.linkedin.com/in/ivan-ortiz-8b6494303/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </p>
     </section>
 
-<!-- Sofware Project -->
-<section id="projects">
-    <h2>Projects</h2>
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <article>
+        <h3>Anime ChatBot</h3>
+        <p>AI-powered chatbot inspired by anime characters.</p>
+      </article>
+      <article>
+        <h3>SafeNest</h3>
+        <p>Rental property app with crime data integration.</p>
+      </article>
+    </section>
 
-    <div class="projects-container">
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS (learning)</li>
+        <li>JavaScript (learning)</li>
+      </ul>
+    </section>
 
-        <div class="project_card">
-            <a href="https://github.com" target="_blank">
-                <img src="anime-chatbot.png" alt="Anime Chatbot Screenshot">
-                <h3>Anime ChatBot</h3>
-                <p>AI-powered chatbot inspired by anime characters.</p>
-                <p class="tech">React</p>
-            </a>
-        </div>
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <button id="hello-btn" type="button">Click for a welcome message</button>
+      <p id="hello-output" aria-live="polite"></p>
+    </section>
+  </main>
 
-        <div class="project_card">
-            <a href="https://github.com" target="_blank">
-                <img src="anime-chatbot.png" alt="Anime Chatbot Screenshot">
-                <h3>SafeNest</h3>
-                <p>Rental property app with crime data integration.</p>
-                <p class="tech">React / Node</p>
-            </a>
-        </div>
+  <footer>
+    <p>© 2026 Ivan Ortiz</p>
+  </footer>
 
-    </div>
-</section>
-<!-- Skills section -->
-<section id="skills">
-    <h2>Skills</h2>
-
-    <div class="skills-container">
-        <i class="fa-brands fa-figma" aria-label="Figma"></i>
-        <i class="fa-brands fa-react" aria-label="React"></i>
-        <i class="fa-brands fa-github" aria-label="GitHub"></i>
-    </div>
-</section>
-
-<!-- leave a message section -->
-<section id = "contact">
-    <h2>Leave a Message</h2>
-    <form>
-        <!--later-->
-    </form>
-</section>
-
-<footer>
-   <p>© 2026 Ivan Ortiz. All rights reserved.</p>
-</footer>
+  <script src="script.js"></script>
+</body>
+</html>
